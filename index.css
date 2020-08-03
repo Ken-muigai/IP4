@@ -1,0 +1,22 @@
+#pizza{
+    width: 80px;
+    height: 80px;
+    margin-left: 0px;
+}
+
+.jumbotron{
+    background-image: url('./images/brett-jordan-m3cDaO6imAc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+#firstrow{
+    height: 800px;
+}
+
+#firstcolumn{
+    justify-content: center;
+    text-align: center;
+}
