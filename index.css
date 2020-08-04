@@ -30,10 +30,6 @@
     background-size: cover;
 }
 
-#desert{
-    width: 400px;
-    height: 370px;
-}
 
 h1{
     color: white;
@@ -51,9 +47,7 @@ h1{
     font-weight: 800;
 }
 
-#home{
-    padding: 10px;
-}
+
 
 #formone{
     position: relative;
@@ -64,11 +58,6 @@ h1{
     top: 1700px;
     right: 0px;
 }
-
-#home{
-    display: block;
-}
-
 
 img{
     height: 280px ;
