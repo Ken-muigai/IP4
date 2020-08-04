@@ -68,3 +68,9 @@ h1{
 #home{
     display: block;
 }
+
+
+img{
+    height: 280px ;
+    width: 400px ;
+}
