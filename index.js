@@ -1,7 +1,7 @@
-var size = $('#home input[name=size]:checked  ').val();
-var crust = $(' input[name=crust]:checked ').val();
-var topping = $('#menu2 input[name=topping]:checked').val();
-var deliver = $('#selection option:selected').val();
+var size = parseInt($('#home input[name=size]:checked').val());
+var crust = parseInt($(' input[name=crust]:checked ').val());
+var topping = parseInt($('#menu2 input[name=topping]:checked').val());
+var deliver = parseInt($('#selection option:selected').val());
 
 function grandTotal(m,n,o,p){
     return m + n + o + p
