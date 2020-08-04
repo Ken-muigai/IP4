@@ -59,12 +59,9 @@ h1{
     right: 0px;
 }
 
-img{
+#menu1 input{
     height: 280px ;
     width: 400px ;
     border-radius: 70%;
 }
 
-select#crust option[value='100']{
-    background-image: url('./images/thin.png');
-}

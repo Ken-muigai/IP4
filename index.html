@@ -51,63 +51,39 @@
             </ul>
             
             <div class="tab-content">
-                <div id="home" class="tab-pane fade in active" class="form-check">
+                <div id="home" class="tab-pane fade in active">
                     <h6>SELECT SIZE</h6>
-                    <div class="form-check">
+                    <div class="form-group">
                         <input type="radio" value="900" placeholder="ksh.900" name="size">
                         <label for="large">LARGE FOR KSH. 900</label>
-                    </div>
-                    <div class="form-check">
                         <input type="radio"  value="500" placeholder="ksh. 500" name="size">
                         <label for="medium">MEDIUM FOR KSH. 500</label>
-                    </div>
-                    <div class="form-check">
                         <input type="radio" value="300" placeholder="ksh.300" name="size">
                         <label for="small">SMALL FOR KSH. 300</label>
-                    </div>
-                    <div class="form-check">
                         <input type="radio" value="300" placeholder="ksh.160" name="size">
                         <label for="pieces">2 PIECE FOR KSH. 160</label>
-                    </div>
+                </div>
                 </div>
                 <div id="menu1" class="tab-pane fade">
                 <h6>SELECT CRUST</h6>
-                <select id="crust">
-                    <option value="350">Thin Crust</option>
-                    <option value="200">Chicao Stuffed Crust</option>
-                    <option value="200">Cheese Crust</option>
-                    <option value="250">Pinapple</option>
-                </select>
-                   <!-- <div class="form-check">
-                    <input type="radio" value="150" placeholder="ksh.400" name="crust">
-                    <label for="large"><img src="/IP4/images/sicilian.png">Sicilian crust for 150</label>
-                   </div>
-                   <div class="form-check">
-                    <input type="radio" value="200" placeholder="ksh.400" name="crust">
-                    <label for="large"><img src="/IP4/images/Chcago.png">Chicago Stuffed crust for 200</label>
-                   </div>
-                    <div class="form-check">
-                        <input type="radio" value="200" placeholder="ksh.400" name="crust">
-                        <label for="large"><img src="/IP4/images/cheese-stuffed.png">Cheese crust for 250</label>
-                   </div> -->
+                <div class="form-group">
+                    <input type="image" class="form-control" src="/IP4/images/thin.png" value="290">
+                    <input type="image" class="form-control" src="/IP4/images/sicilian.png" value="350">
+                    <input type="image" class="form-control" src="/IP4/images/Chcago.png" value="390">
+                    <input type="image" class="form-control" src="/IP4/images/thin.png" value="200">
                 </div>
+                </div>                   
                 <div id="menu2" class="tab-pane fade">
                 <h6>SELECT TOPPING</h6>
-                <div class="form-check">
-                    <input type="radio" value="100" name="topping" placeholder="100">
-                    <label for="pepperoni"><img src="../IP4/images/pepperoni.png">Pepperoni topping for sh.100</label>
-                </div>
-               <div class="form-check">
-                    <input type="radio" value="250" name="topping" placeholder="100">
-                    <label for="beef"><img src="/IP4/images/mincedbeef.png">Minced Beef topping for sh.250</label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" value="350" name="topping" placeholder="100">
-                    <label for="beef"><img src="/IP4/images/garlicbutterprawnchilli.png">Garlic, ButterPrawn and Chilli for sh.350</label>
-                </div>
-                <div class="form-check" id="topping">
-                    <input type="radio" value="250" name="topping" placeholder="100">
-                    <label for="beef"><img src="/IP4/images/hamandpineapple.png">Ham and Pineapple topping for sh.250</label>
+                <div class="form-group">
+                    <input type="image" value="100" name="topping" src="./images/pepperoni.png">
+                    <label for="pepperoni">Pepperoni topping for sh.100</label>
+                    <input type="image" value="250" name="topping" src="../IP4/images/mincedbeef.png">
+                    <label for="beef">Minced Beef topping for sh.250</label>
+                    <input type="image" value="350" name="topping" src="./images/garlicbutterprawnchilli.png">
+                    <label for="beef">Garlic, ButterPrawn and Chilli for sh.350</label>
+                    <input type="image" value="250" name="topping" src="../IP4/images/hamandpineapple.png">
+                    <label for="beef">Ham and Pineapple topping for sh.250</label>
                 </div>
                 </div>
                 <div id="menu3" class="tab-pane fade">
