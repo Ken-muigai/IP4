@@ -22,7 +22,7 @@
 }
 
 #firstpizza{
-    height: 700px;
+    height: 500px;
     width: 100%;
     padding: 10px;
     background-image: url('./images/thomas-tucker-MNtag_eXMKw-unsplash.jpg');
@@ -46,11 +46,16 @@ h1{
 }
 
 #formone li a{
-    color: snow;
+    color: forestgreen;
     font-size: 20px;
     font-weight: 800;
 }
 
 #home{
     padding: 10px;
+}
+
+#formone{
+    position: relative;
+    top: 400px;
 }
