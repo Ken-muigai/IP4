@@ -59,3 +59,12 @@ h1{
     position: relative;
     top: 400px;
 }
+#submission{
+    position: absolute;
+    top: 1700px;
+    right: 0px;
+}
+
+#home{
+    display: block;
+}
