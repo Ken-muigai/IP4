@@ -17,3 +17,11 @@ $(document).ready(function(){
         console.log(grandTotal(size,crust,topping,deliver))
     })
 })
+
+$(document).ready(function(){
+    $('.form-group input').click(function(e){
+        e.preventDefault();
+        var crust = $('#crust input[name=crust]selected').val()
+        console.log(crust)
+    })
+})
