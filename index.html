@@ -49,8 +49,31 @@
                 <li><a data-toggle="tab" href="#menu2">TOPPING</a></li>
                 <li><a data-toggle="tab" href="#menu3">Delivery</a></li>
             </ul>
-            
+
             <div class="tab-content">
+                <div id="home" class="tab-pane fade">
+                    <h5>SELECT SIZE</h5>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-6" id="large">
+                                <label for="size">LARGE PIZZA. Ksh 900</label>
+                                <input type="checkbox" name="size" value="900">
+                            </div>
+                            <div class="col-6" id="medium">
+                                <label for="size">MEDIUM PIZZA. Ksh 700</label>
+                                <input type="checkbox" name="size" value="700">
+                            </div>
+                            <div class="col-6" id="small">
+                                <label for="size">SMALL PIZZA. Ksh 500</label>
+                                <input type="checkbox" name="size" value="500">
+                            </div>
+                            <div class="col-6" id="piece">
+                                <label for="size">PIZZA PIECE. Ksh 200</label>
+                                <input type="checkbox" name="size" value="200">
+                            </div>
+                        </div>
+                    </div>
+            </div>
                 <div id="menu1" class="tab-pane fade">
                 <h6>SELECT CRUST</h6>
                 <div class="form-group">
@@ -107,9 +130,9 @@
                 </select>
                 </div>
             </div>
-            </div>    
+            </div>
+            <button class="btn btn-success" type="submit" id="submission">ORDER</button>
     </div>
-    <input type="submit" id="submission">
     </form>
     </div>
 <script src="index.js"></script>   

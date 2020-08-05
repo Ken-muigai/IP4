@@ -96,6 +96,27 @@ h1{
     background-size: cover;
 }
 
+#large{
+    background-image: url('/IP4/images/large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#medium{
+    background-image: url('/IP4/images/medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#small{
+    background-image: url('/IP4/images/small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#piece{
+    background-image: url('/IP4/images/piece.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #crust4{
     background-image: url('/IP4/images/pexels-buenosia-carol-367915.jpg');
     background-repeat: no-repeat;
@@ -135,4 +156,8 @@ input{
     width: 100%;
     padding-left: 30px;
 
+}
+
+#submission{
+    left: 1200px;
 }

@@ -10,11 +10,6 @@ function grandTotal(m,n,o,p){
 $(document).ready(function(){
     $('#submission').click(function(e){
         e.preventDefault();
-    })
-})
-
-$(document).ready(function(){
-    $('#submission').click(function(){  
         var size = $('#home input[name=size]:checked').val();
         var crust = $('#crust input[name=crust]:checked ').val();
         var topping = $('#topping input[name=topping]:checked').val();
@@ -22,4 +17,5 @@ $(document).ready(function(){
         console.log(size,crust,topping,deliver);
     })
 })
+
 
