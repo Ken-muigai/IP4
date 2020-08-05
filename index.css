@@ -59,15 +59,14 @@ h1{
     right: 0px;
 }
 
-#menu1 input{
-    height: 280px ;
-    width: 400px ;
-    border-radius: 70%;
+
+#first{
+    background-image: url('/IP4/images/thin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#menu2 input{
-    height: 280px;
-    width: 400px;
-    border-radius: 70%;
+#second{
+    background-image: url('/IP4/images/mincedbeef.png');
 }
 

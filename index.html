@@ -53,7 +53,7 @@
             <div class="tab-content">
                 <div id="home" class="tab-pane fade in active">
                     <h6>SELECT SIZE</h6>
-                    <div class="form-group">
+                    <div class="form-group" id="size">
                         <input type="radio" value="900" placeholder="ksh.900" name="size">
                         <label for="large">LARGE FOR KSH. 900</label>
                         <input type="radio"  value="500" placeholder="ksh. 500" name="size">
@@ -67,7 +67,7 @@
                 <div id="menu1" class="tab-pane fade">
                 <h6>SELECT CRUST</h6>
                 <div class="form-group" id="crust">
-                    <input type="image" name="crust" src="/IP4/images/thin.png" value="290">
+                    <input type="checkbox" name="crust" value="290">
                     <label for="thin">Yummy Thin Crust for Ksh. 350</label>
                     <input type="image" src="/IP4/images/sicilian.png" value="350" name="crust">
                     <label for="sicilian">Sicilian Crust is just what you need. Ksh. 450</label>
@@ -75,13 +75,19 @@
                     <label for="chicago">Chicago Crust for sh.300</label>
                 </div>
                 </div>                   
-                <div id="menu2" class="tab-pane fade">
+                <div id="menu2" class="tab-pane fade" id="topping">
                 <h6>SELECT TOPPING</h6>
-                <div class="form-group">
-                    <label for="pepperoni">Pepperoni topping for sh.100</label>
-                    <input type="image" value="100" name="topping" src="./images/pepperoni.png">
-                    <label for="beef">Minced Beef topping for sh.250</label>
-                    <input type="image" value="250" name="topping" src="../IP4/images/mincedbeef.png">
+                <div class="form-group" id="topping">
+                    <div class="row">
+                        <div class="col-6 col-md-3 col-sm-2" id="first">
+                            <label for="pepperoni">Pepperoni topping for sh.100</label>
+                            <input type="checkbox" value="100" name="topping">
+                        </div>
+                        <div class="col-6 col-md-3 col-sm-2" id="second">
+                            <label for="beef">Minced Beef topping for sh.250</label>
+                            <input type="checkbox" value="250" name="topping">        
+                       </div>
+                    </div>
                     <label for="beef">Garlic, ButterPrawn and Chilli for sh.350</label>
                     <input type="image" value="350" name="topping" src="./images/garlicbutterprawnchilli.png">
                     <label for="beef">Ham and Pineapple topping for sh.250</label>

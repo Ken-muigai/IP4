@@ -10,18 +10,16 @@ function grandTotal(m,n,o,p){
 $(document).ready(function(){
     $('#submission').click(function(e){
         e.preventDefault();
-        var size = $('#home input[name=size]:checked').val();
-        var crust = $(' input[name=crust]:checked ').val();
-        var topping = $('#menu2 input[name=topping]:checked').val();
-        var deliver = $('#selection option:selected').val();
-        console.log(grandTotal(size,crust,topping,deliver))
     })
 })
 
 $(document).ready(function(){
-    $('.form-group input').click(function(e){
-        e.preventDefault();
-        var crust = $('#crust input[name=crust]selected').val()
-        console.log(crust)
+    $('#submission').click(function(){  
+        var size = $('#home input[name=size]:checked').val();
+        var crust = $('#crust input[name=crust]:checked ').val();
+        var topping = $('#topping input[name=topping]:checked').val();
+        var deliver = $('#selection option:selected').val();
+        console.log(size,crust,topping,deliver);
     })
 })
+
