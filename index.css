@@ -163,3 +163,22 @@ input{
 #submission{
     left: 1200px;
 }
+
+.container{
+    margin-left: 0px;
+    background-color:rgba(0, 0, 255, 0.116);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 115%;
+    background-color:rgba(0, 0, 255, 0.116);
+}
+
+.nav-link{
+    color: goldenrod;
+}
+
+.nav-link :hover{
+    background-color: gray;
+}
