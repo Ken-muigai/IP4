@@ -1,6 +1,5 @@
-# IP4
 # VITO'S PIZZA
-This application allows users to make pizza orders and its delivered within Nairobi.
+This application allows users to make pizza orders within Nairobi and its environs.
 ---
 By **Ken-Joel Gichuhi Muigai **
 
