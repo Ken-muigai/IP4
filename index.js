@@ -14,7 +14,7 @@ $(document).ready(function(){
         var crust = $('#crust input[name=crust]:checked ').val();
         var topping = $('#topping input[name=topping]:checked').val();
         var deliver = $('#selection option:selected').val();
-        console.log(size,crust,topping,deliver);
+        alert(`We have receive your order of TOTAL: ${grandTotal(size,crust,topping,deliver)} check receipt at the bottom.Gracia.`);
     })
 })
 
