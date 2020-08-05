@@ -181,3 +181,17 @@ nav{
 .nav-link :hover{
     background-color: gray;
 }
+
+.receipt{
+    position: absolute;
+    top: 300%;
+}
+
+#holder{
+    background-color: gray;
+}
+
+#holder li{
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
