@@ -166,13 +166,12 @@ input{
 
 .container{
     margin-left: 0px;
-    background-color:rgba(0, 0, 255, 0.116);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav{
     width: 115%;
-    background-color:rgba(0, 0, 255, 0.116);
+    background-color:rgba(145, 145, 160, 0.116);
 }
 
 .nav-link{
