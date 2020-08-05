@@ -19,6 +19,11 @@ $(document).ready(function(){
         }else{
             alert(size + crust + topping)
         }
+
+        $('.receipt #holder').append(`
+        <li> Size: ${size}</li>,
+        <li> Crust for ${crust}</li>,
+        <li> Topping for ${topping}</li>`)
     })
 })
 
