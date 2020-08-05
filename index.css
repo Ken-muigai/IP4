@@ -53,20 +53,86 @@ h1{
     position: relative;
     top: 400px;
 }
-#submission{
-    position: absolute;
-    top: 1700px;
-    right: 0px;
-}
 
 
 #first{
-    background-image: url('/IP4/images/thin.png');
+    background-image: url('/IP4/images/pepperoni.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #second{
     background-image: url('/IP4/images/mincedbeef.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#third{
+    background-image: url('/IP4/images/garlicbutterprawnchilli.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#fourth{
+    background-image: url('/IP4/images/hamandpineapple.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#crust1{
+    background-image: url('/IP4/images/thin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#crust2{
+    background-image: url('/IP4/images/Chcago.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#crust3{
+    background-image: url('/IP4/images/sicilian.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#crust4{
+    background-image: url('/IP4/images/pexels-buenosia-carol-367915.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-6{
+    justify-content: center;
+    width: 700px;
+    height: 300px;
+}
+
+.col-md-3{
+    padding: 20px;
+}
+
+label{
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight:900;
+    color: whitesmoke;
+    text-align: center;
+}
+
+input{
+    position: absolute;
+    top: 100px;
+    size: 20vh;
+    left: 150px;
+    height: 30px;
+    width: 50px;
+
+}
+
+#topping{
+    width: 100%;
+    padding-left: 30px;
+
+}

@@ -51,34 +51,33 @@
             </ul>
             
             <div class="tab-content">
-                <div id="home" class="tab-pane fade in active">
-                    <h6>SELECT SIZE</h6>
-                    <div class="form-group" id="size">
-                        <input type="radio" value="900" placeholder="ksh.900" name="size">
-                        <label for="large">LARGE FOR KSH. 900</label>
-                        <input type="radio"  value="500" placeholder="ksh. 500" name="size">
-                        <label for="medium">MEDIUM FOR KSH. 500</label>
-                        <input type="radio" value="300" placeholder="ksh.300" name="size">
-                        <label for="small">SMALL FOR KSH. 300</label>
-                        <input type="radio" value="300" placeholder="ksh.160" name="size">
-                        <label for="pieces">2 PIECE FOR KSH. 160</label>
-                </div>
-                </div>
                 <div id="menu1" class="tab-pane fade">
                 <h6>SELECT CRUST</h6>
-                <div class="form-group" id="crust">
-                    <input type="checkbox" name="crust" value="290">
-                    <label for="thin">Yummy Thin Crust for Ksh. 350</label>
-                    <input type="image" src="/IP4/images/sicilian.png" value="350" name="crust">
-                    <label for="sicilian">Sicilian Crust is just what you need. Ksh. 450</label>
-                    <input type="image" src="/IP4/images/Chcago.png" value="390" name="crust">
-                    <label for="chicago">Chicago Crust for sh.300</label>
+                <div class="form-group">
+                    <div class="row" id="crust">
+                        <div class="col-6" id="crust1">
+                            <input type="checkbox" name="crust" value="290" >
+                            <label for="thin">Yummy Thin Crust for Ksh. 350</label>
+                        </div>
+                    <div class="col-6" id="crust2">
+                        <input type="checkbox" value="350" name="crust">
+                        <label for="sicilian">Sicilian Crust is just what you need. Ksh. 450</label>    
+                    </div>
+                    <div class="col-6" id="crust3">
+                        <input type="checkbox" value="390" name="crust">
+                        <label for="chicago">Chicago Crust for sh.300</label>    
+                    </div>
+                    <div class="col-6" id="crust4">
+                        <input type="checkbox" value="390" name="crust">
+                        <label for="chicago">Buenosia Crust for sh.500</label>    
+                    </div>
                 </div>
-                </div>                   
-                <div id="menu2" class="tab-pane fade" id="topping">
+                </div> 
+                </div>                  
+                <div id="menu2" class="tab-pane fade">
                 <h6>SELECT TOPPING</h6>
-                <div class="form-group" id="topping">
-                    <div class="row">
+                <div class="form-group">
+                    <div class="row" id="topping">
                         <div class="col-6 col-md-3 col-sm-2" id="first">
                             <label for="pepperoni">Pepperoni topping for sh.100</label>
                             <input type="checkbox" value="100" name="topping">
@@ -87,11 +86,15 @@
                             <label for="beef">Minced Beef topping for sh.250</label>
                             <input type="checkbox" value="250" name="topping">        
                        </div>
-                    </div>
-                    <label for="beef">Garlic, ButterPrawn and Chilli for sh.350</label>
-                    <input type="image" value="350" name="topping" src="./images/garlicbutterprawnchilli.png">
+                       <div class="col-6 col-md-3 col-sm-2" id="third">
+                        <label for="beef">Garlic, ButterPrawn and Chilli for sh.350</label>
+                        <input type="checkbox" value="350" name="topping">    
+                   </div>
+                   <div class="col-6 col-md-3 col-sm-2" id="fourth">
                     <label for="beef">Ham and Pineapple topping for sh.250</label>
-                    <input type="image" value="250" name="topping" src="../IP4/images/hamandpineapple.png">
+                    <input type="checkbox" value="250" name="topping">
+                   </div>
+                    </div>
                 </div>
                 </div>
                 <div id="menu3" class="tab-pane fade">
